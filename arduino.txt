@@ -1,9 +1,9 @@
 #include <SPI.h>
 #include <Ethernet.h>
 
-// Endereço MAC e IP (ajuste conforme sua rede)
+// Endereço MAC e IP
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
-IPAddress ip(10, 197, 12, 227);
+IPAddress ip(xxx, xxx, x, x);
 
 // Cria o servidor HTTP na porta 80
 EthernetServer server(80);
