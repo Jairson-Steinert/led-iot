@@ -28,7 +28,7 @@ Este projeto permite controlar um LED conectado a um Arduino por meio de uma int
 
 1. **Clone ou baixe o projeto:**
    ```bash
-   git clone <URL-do-repositório>
+   git clone <URL-do-repositório>(https://github.com/Jairson-Steinert/led-iot.git)
    cd seu-projeto
    ```
     - Em server.js configura o hostname com o seu endereço de IP local
