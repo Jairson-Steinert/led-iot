@@ -33,14 +33,16 @@ Este projeto permite controlar um LED conectado a um Arduino por meio de uma int
    ```
     - Em server.js configura o hostname com o seu endereço de IP local
 
-    ```function sendCommandToArduino(command) {
+```javascript
+function sendCommandToArduino(command) {
   const options = {
     hostname: 'xxx.xxx.x.x', // IP do Arduino
     port: 80,
-    path: `/led/${command}`,   // Ex.: /led/on ou /led/off
+    path: `/led/${command}`,  // Ex.: /led/on ou /led/off
     method: 'GET'
   };
-    ```
+}
+```
 
 2. **Instale as dependências do Node.js:**
    ```bash
