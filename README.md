@@ -50,7 +50,7 @@ function sendCommandToArduino(command) {
    ```
 
 3. **Verifique a conexão com o Arduino:**
-   - Certifique-se de que o Arduino está na mesma rede local e configurado para responder às requisições HTTP conforme o código fornecido.
+- * Certifique-se de que o Arduino está na mesma rede local e configurado para responder às requisições HTTP conforme o código fornecido.
 
 ## Executando o Projeto Localmente
 
