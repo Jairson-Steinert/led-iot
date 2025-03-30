@@ -11,14 +11,16 @@ Este projeto permite controlar um LED conectado a um Arduino por meio de uma int
 
 ## Estrutura do Projeto
 
+```bash
 │ LED-IoT
 │   ├──node_modules
 ├── public
-│   ├── index.html      # Página com a interface para controle do LED
+│   ├── index.html
 ├── package-lock.json
-├── package.json        # Dependências e scripts do projeto 
-├── server.js           # Código do servidor Node.js 
-├── ard
+├── package.json
+├── server.js
+├── arduino.txt
+```
 
 > **Observação:** O código do Arduino(arquivo arduino.txt) também precisa estar configurado para responder às requisições HTTP (exemplo: `/led/on` e `/led/off`).
 
